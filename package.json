@@ -1,0 +1,9 @@
+{
+  "name": "litecoin-rpc",
+  "version": "1.0.0",
+  "description": "Simple client to interact with litecoin-core RPC",
+  "main": "client.js",
+  "repository": "git@github.com:nem0z/litecoin-rpc.git",
+  "author": "nem0z <maxime.bernard.dev@gmail.com>",
+  "license": "MIT"
+}
