@@ -1,8 +1,8 @@
-import Client from '../index.js';
-import config from './conf.js';
+import Client from '../client.js';
+import config from './config.js';
 
 const client = Client(config);
-const block_hash = "9c4046f5c46dd0d7fb55ddd09f89d808f57d9e54228eba913aa181cf5dcb2283";
+const block_hash = "344fe7927e6a3723b21ec0ec6b9f31d722ac03d667dd10d209b00047380370bb";
 
 client.getBlock(block_hash)
     .then(block => console.log("Block retrived :\n", block))
