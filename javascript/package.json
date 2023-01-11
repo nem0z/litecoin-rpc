@@ -1,0 +1,11 @@
+{
+  "name": "litecoin-rpc-example-js",
+  "version": "1.0.0",
+  "description": "Example usage of litecoin-rpc using jS",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "litecoin-rpc": "^2.0.0"
+  }
+}
