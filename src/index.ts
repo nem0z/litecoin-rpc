@@ -1,7 +1,6 @@
-import Client from './client';
-import { RPCMethods } from './rpc_methods';
-import { Network } from './networks';
-import { Config } from './types';
+export { RPCMethods } from './rpc_methods.js';
+export { Network } from './networks.js';
+export { Config } from './types.js';
 
+import Client from './client.js';
 export default Client;
-export { RPCMethods, Network, Config };
