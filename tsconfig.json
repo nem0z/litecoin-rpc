@@ -1,15 +1,21 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
-    "lib": [ "es2015", "dom" ],
-    "outDir": "lib",
-  
-    "sourceMap": true,
+    "module": "node16",
+    "target": "esnext",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
     "declaration": true,
-    "moduleResolution": "node"
+    "declarationMap": true,
+    "moduleResolution": "node16",
   },
+
   "include": [
-      "src/**/*"
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }
