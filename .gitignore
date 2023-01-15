@@ -1,4 +1,3 @@
-node_modules
-lib
-lib-esm
-_bundles
+node_modules/
+dist/
+./yarn.lock
