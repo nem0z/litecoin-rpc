@@ -1,8 +1,6 @@
-import { RPCMethods } from "./rpc_methods";
-import { Network } from "./networks";
-import type { Config } from "./types";
-
-import fetch from "node-fetch";
+import { RPCMethods } from "./rpc_methods.js";
+import { Network } from "./networks.js";
+import type { Config } from "./types.js";
 
 export default function Client(config: Config) {
     const { 

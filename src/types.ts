@@ -1,4 +1,4 @@
-import type { Network } from "./networks";
+import type { Network } from "./networks.js";
 
 interface Config {
     host    ?: string
