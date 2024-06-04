@@ -1,6 +1,6 @@
 {
   "name": "litecoin-rpc",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "Simple client to interact with litecoin-core RPC for TS and JS",
   "repository": "git@github.com:nem0z/litecoin-rpc.git",
   "author": "nem0z <maxime.bernard.dev@gmail.com>",
