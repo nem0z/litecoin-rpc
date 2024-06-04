@@ -34,5 +34,3 @@ Install using `npm`:
         .catch(console.error);
 ```
 
-For more details see [example](https://github.com/nem0z/litecoin-rpc/tree/main/example) (comming soon)
-
